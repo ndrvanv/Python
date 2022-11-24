@@ -20,14 +20,11 @@ else:
 
 #Напишите программу для. проверки истинности утверждения ¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z для всех значений предикат.
 
-x_1 = 2
-y_1 = 2
-z_1 = 2
 
-for i in range(x_1):
-	for k in range(y_1):
-		for l in range(z_1):
-			print(not(i or k or l) == not(i and k and l))    # Попытался но чтот не получилось
+for i in range(2):
+	for k in range(2):
+		for l in range(2):
+			print(not(i or k or l) == (not i and not k and not l))    # Попытался но чтот не получилось
 				
 				
 
