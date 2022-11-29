@@ -4,7 +4,7 @@
 #     0.56 -> 11
 
 count = 0
-a = int(input('¬ведите число: ' ))
+a = abs(int(input('¬ведите число: ' )))
 while a > 0:
     b = a % 10     
     count += b
