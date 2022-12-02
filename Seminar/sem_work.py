@@ -23,7 +23,7 @@ x = float(input('Введите дробное число ' ))  #from float to i
 y = x % 10
 print(int(y))
 
-num_a = input('Введите число str ' )   #from floar to int int throw str
+num_a = input('Введите число str ' )   #from float to int int throw str
 for i in range (len(num_a)):
     if num_a [i] =='.':
         print(num_a[i+1])
